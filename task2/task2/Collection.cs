@@ -98,7 +98,7 @@ namespace task2
         }
         public void Output()
         {
-            string filename = @"C:\4term\task2\task2\Output.txt";
+            string filename = @"C:\np_4term\task2\task2\Output.txt";
             File.WriteAllText(filename, string.Empty);
             using (TextWriter tw = new StreamWriter(filename))
             {
