@@ -83,7 +83,7 @@ namespace task2
         public void Input()
         {
             string filename = this.Get_input("Enter filename: ");
-            string pattern = @"C:\4term\task2\task2\";
+            string pattern = @"C:\np_4term\task2\task2\";
             while (!File.Exists(pattern + filename)) {
                 filename = this.Get_input("Incorrect filename! Enter new filename: ");
             }
