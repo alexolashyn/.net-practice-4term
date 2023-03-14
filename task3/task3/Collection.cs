@@ -94,11 +94,18 @@ namespace task3
             string[] lines = File.ReadAllLines(pattern);
             Type[] types = { typeof(string[]) };
             var constructorInfoObj = data_type.GetConstructor(types);
-            for (int i = 0; i < lines.Length; i++)
+            if (constructorInfoObj != null)
             {
-                string[] fields_value = lines[i].Split(", ");
-                object new_el = constructorInfoObj.Invoke(new object[] { fields_value });
-                this.Push((T)Convert.ChangeType(new_el, data_type));
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    string[] fields_value = lines[i].Split(", ");
+                    object new_el = constructorInfoObj.Invoke(new object[] { fields_value });
+                    this.Push((T)Convert.ChangeType(new_el, data_type));
+                }
+            }
+            else
+            {
+                Console.WriteLine("There is no such constructor!");
             }
         }
         public void Output()
@@ -121,7 +128,7 @@ namespace task3
             {
                 if (property.Name == selected_field)
                 {
-                    data = data.OrderBy(el => data_type.GetProperty(selected_field).GetValue(el).ToString().ToLower()).ToList();
+                    data = data.OrderBy(el => property.GetValue(el).ToString().ToLower()).ToList();
                     break;
                 }
             }
