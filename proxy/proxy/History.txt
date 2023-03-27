@@ -1,0 +1,82 @@
+
+
+Taylor Swift, Search, 27.03.2023 22:43:05, Search by "toy", [2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Taylor Swift, Sort, 27.03.2023 22:43:10, Sort by Brand, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Taylor Swift, Show, 27.03.2023 22:43:17, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Taylor Swift, NewCollection, 27.03.2023 22:43:40, Error, Attempt to complete action without appropriate level of priority
+
+Sasha Olashyn, Show, 27.03.2023 22:46:47, All colection, [2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Sasha Olashyn, Pop, 27.03.2023 22:46:51, Error, Attempt to complete action without appropriate level of priority
+
+Ariana Grande, Edit, 27.03.2023 22:56:39, Error, Attempt to complete action without appropriate level of priority
+
+Ariana Grande, Show, 27.03.2023 22:56:42, All colection, [2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Ariana Grande, Sort, 27.03.2023 22:56:49, Sort by Brand, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Ariana Grande, Show, 27.03.2023 22:56:56, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Admin Admin, Show, 27.03.2023 23:02:00, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000]
+
+Admin Admin, AddInto, 27.03.2023 23:02:03, 3 toyota corolla AO8789AK 2020/09/09 2022/07/11 31000000, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Admin Admin, Show, 27.03.2023 23:02:41, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Admin Admin, AddInto, 27.03.2023 23:02:55, imxcois, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Admin Admin, Show, 27.03.2023 23:03:06, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Admin Admin, Edit, 27.03.2023 23:03:07, previous: 3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000, Element is not changed
+
+Admin Admin, Show, 27.03.2023 23:03:24, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Britney Spears, Show, 27.03.2023 23:13:23, All colection, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000]
+
+Britney Spears, Sort, 27.03.2023 23:13:39, Sort by Registration_number, [2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Britney Spears, Show, 27.03.2023 23:13:56, All colection, [2, toyota, camry, AO8788AK, 2021/12/13, 2022/01/01, 3000000
+3, toyota, corolla, AO8789AK, 2020/09/09, 2022/07/11, 31000000
+1, bmw, q7, BC1234BD, 2020/10/12, 2022/12/12, 2000000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Show, 27.03.2023 23:15:34, All colection, Your collection is empty!
+
