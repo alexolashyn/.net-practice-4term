@@ -72,60 +72,59 @@ namespace proxy
                 object el = constructorInfo.Invoke(new object[] { });
                 IList<PropertyInfo> properties = data_type.GetProperties();
                 SettingValues(fields, properties, el);
-                ev.S1 = String.Join(' ', fields);
+                ev.Description = String.Join(' ', fields);
                 this.Push((T)Convert.ChangeType(el, data_type));
-                ev.S2 = $"[{this}]";
+                ev.Description += $" [{this}]";
             }
             else
             {
                 Console.WriteLine($"There is no default constructor in {data_type.Name}\'s class");
-                ev.S2 = "Element is not added!";
+                ev.Description += " Element is not added!";
             }
         }
         public void Pop(Event ev)
         {
             Console.Write("Enter id of the element, which you\'d like to remove: ");
             var selected_id = Console.ReadLine();
-            ev.S1 = selected_id;
+            ev.Description = selected_id;
             var selected_el = data.Find(x => data_type.GetProperty("Id").GetValue(x, null).ToString() == selected_id);
             if (selected_el != null)
             {
                 data.Remove(selected_el);
-                ev.S2 = $"[{this}]";
+                ev.Description += $" [{this}]";
             }
             else
             {
-                ev.S2 = "There is no element with such id!";
+                ev.Description += " There is no element with such id!";
                 Console.WriteLine("There is no element with such id!");
             }
         }
         public void Show(Event ev)
         {
-            ev.S1 = "All colection";
             if (data.Any())
             {
                 Console.WriteLine(this);
-                ev.S2 = $"[{this}]";
+                ev.Description = $"[{this}]";
             }
             else
             {
                 Console.WriteLine("Your collection is empty!");
-                ev.S2 = "Your collection is empty!";
+                ev.Description = "Your collection is empty!";
             }
         }
         public void ShowById(Event ev)
         {
             string selected_id = GetInput("Enter id of element which you\'d like to view: ");
-            ev.S1 = $"Id: {selected_id}";
+            ev.Description = $"Id: {selected_id}";
             T el = data.Find(x => data_type.GetProperty("Id").GetValue(x).ToString() == selected_id);
             if (el != null)
             {
-                ev.S2 = $"[{el}]";
+                ev.Description += $" [{el}]";
                 Console.WriteLine(el);
             }
             else
             {
-                ev.S2 = "There is no element with such id!";
+                ev.Description += " There is no element with such id!";
                 Console.WriteLine("There is no element with such id!");
             }
         }
@@ -177,15 +176,14 @@ namespace proxy
         public void Sort(Event ev)
         {
             var selected_field = GetInput("Select a field to sort by: ");
-            ev.S1 = $"Sort by {selected_field}";
-            ev.S2 = $"There is no such field in {data_type.Name}\'s class!";
+            ev.Description = $"Sort by {selected_field}";
             var properties = data_type.GetProperties();
             foreach (var property in properties)
             {
                 if (property.Name == selected_field)
                 {
                     data = data.OrderBy(el => data_type.GetProperty(selected_field).GetValue(el).ToString().ToLower()).ToList();
-                    ev.S2 = $"[{this}]";
+                    ev.Description += $" [{this}]";
                     break;
                 }
             }
@@ -193,16 +191,15 @@ namespace proxy
         public void Search(Event ev)
         {
             var selected_value = GetInput("Enter what you\'d like to find: ");
-            ev.S1 = $"Search by \"{selected_value}\"";
+            ev.Description = $"Search by \"{selected_value}\"";
             var properties = data_type.GetProperties();
-            ev.S2 = $"There is no element which contains \"{selected_value}\"";
             for (int i = 0; i < data.Count(); i++)
             {
                 foreach (var property in properties)
                 {
                     if (property.GetValue(data[i]).ToString().Contains(selected_value))
                     {
-                        ev.S2 = $"[{data[i]}]";
+                        ev.Description += $" [{data[i]}]";
                         Console.WriteLine(data[i]);
                         break;
                     }
@@ -212,13 +209,12 @@ namespace proxy
         public void Edit(Event ev)
         {
             var selected_id = GetInput("Enter id of the element, which you\'d like to edit: ");
-            ev.S1 = selected_id;
-            ev.S2 = "Element is not changed";
+            ev.Description = selected_id;
             int temp_index = data.FindIndex(x=> data_type.GetProperty("Id").GetValue(x, null).ToString() == selected_id);
             if (temp_index != -1)
             {
                 T temp = (T)Activator.CreateInstance(data_type, data[temp_index]);
-                ev.S1 = $"previous: {temp}";
+                ev.Description += $" previous: {temp}";
                 var selected_field = GetInput("Select a field to edit by: ");
                 IList<PropertyInfo> properties = data_type.GetProperties();
                 foreach (var property in properties)
@@ -239,7 +235,7 @@ namespace proxy
                 }
                 if (Push(temp))
                 {
-                    ev.S2 = $"new: {temp}";
+                    ev.Description += $" new: {temp}";
                     data.Remove(data[temp_index]);
                 }
             }

@@ -40,8 +40,7 @@ namespace proxy
                 ev.ActionName = actionName;
                 if (Convert.ToInt32(Enum.Parse(typeof(RolePriority), user.Role)) < expectedPriority[actionName])
                 {
-                    ev.S1 = "Error";
-                    ev.S2 = "Attempt to complete action without appropriate level of priority";
+                    ev.Description = "Attempt to complete action without appropriate level of priority";
                     throw new Exception($"For \"{actionName}\" you are expected to have higher level of priority!");
                 }
                 return true;
@@ -58,20 +57,18 @@ namespace proxy
         private string userName;
         private string actionName;
         private DateTime time;
-        private string s1;
-        private string s2;
+        private string description;
         public string UserName { get { return userName; } set { userName = value; } }
         public string ActionName { get { return actionName; } set { actionName = value; } }
         public DateTime Time { get { return time; } set { time = value; } }
-        public string S1 { get { return s1; } set { s1 = value; } }
-        public string S2 { get { return s2; } set { s2 = value; } }
+        public string Description { get { return description; } set { description = value; } }
         public Event()
         {
 
         }
         public override string ToString()
         {
-            return $"{userName}, {actionName}, {time}, {s1}, {s2}\n";
+            return $"{userName}, {actionName}, {time}, {description}\n";
         }
     }
     class ProxyLogger
