@@ -1,0 +1,283 @@
+﻿Manager Manager, Show, 25.04.2023 20:34:24, []
+
+Manager Manager, ShowDrafts, 25.04.2023 20:34:26, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, Moderation, 25.04.2023 20:34:32, 
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Publishing, 25.04.2023 20:35:03, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Admin Admin, Show, 25.04.2023 20:35:06, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Admin Admin, ShowDrafts, 25.04.2023 20:35:08, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Publishing, 25.04.2023 20:35:11, 
+
+Admin Admin, Show, 25.04.2023 20:35:14, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Admin Admin, ShowDrafts, 25.04.2023 20:35:15, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Manager Manager, AddInto, 25.04.2023 20:35:49, 3 audi q7 BC4352NJ 2020/12/13 2018/01/01 -2000000 [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, AddInto, 25.04.2023 20:36:46, 3 audi q7 BC4352NJ 2020/12/13 2022/01/01 2000000 [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000]
+
+Manager Manager, Show, 25.04.2023 20:37:21, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Manager Manager, ShowDrafts, 25.04.2023 20:37:23, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000]
+
+Manager Manager, Moderation, 25.04.2023 20:37:38, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+
+Manager Manager, Edit, 25.04.2023 20:37:42, 2 previous: 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000 new: 2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000
+
+Manager Manager, ShowDrafts, 25.04.2023 20:38:10, [2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Manager Manager, ShowModerated, 25.04.2023 20:38:15, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000]
+
+Manager Manager, Show, 25.04.2023 20:38:26, []
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Publishing, 25.04.2023 20:39:34, 1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000
+
+Admin Admin, Show, 25.04.2023 20:39:37, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000]
+
+Admin Admin, ShowDrafts, 25.04.2023 20:39:42, [2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Admin Admin, Publishing, 25.04.2023 20:40:21, 
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Tetiana Stoyko, Show, 25.04.2023 20:40:57, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Tetiana Stoyko, ShowDrafts, 25.04.2023 20:41:00, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, ShowModerated, 25.04.2023 20:41:01, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, Publishing, 25.04.2023 20:41:04, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, Moderation, 25.04.2023 20:41:05, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, Pop, 25.04.2023 20:41:08, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, AddInto, 25.04.2023 20:41:11, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, Edit, 25.04.2023 20:41:12, Attempt to complete action without appropriate level of priority
+
+Tetiana Stoyko, Show, 25.04.2023 20:41:13, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Tetiana Stoyko, Search, 25.04.2023 20:41:20, Search by "12/12" [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Tetiana Stoyko, Show, 25.04.2023 20:41:27, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Tetiana Stoyko, Sort, 25.04.2023 20:41:31, Sort by dds
+
+Tetiana Stoyko, Sort, 25.04.2023 20:41:45, Sort by Brand [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Tetiana Stoyko, Show, 25.04.2023 20:41:49, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, audi, q7, BC4352NJ, 2020/12/13, 2022/01/01, 2000000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+2, toyota, corolla, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Admin Admin, Publishing, 25.04.2023 20:46:55, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Admin Admin, Show, 25.04.2023 20:46:58, []
+
+Admin Admin, Publishing, 25.04.2023 20:47:01, 
+
+Admin Admin, Show, 25.04.2023 20:47:04, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Admin Admin, ShowDrafts, 25.04.2023 20:47:05, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Manager Manager, Moderation, 25.04.2023 20:47:26, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Manager Manager, Moderation, 25.04.2023 20:47:30, Wrong action
+
+Manager Manager, ShowModerated, 25.04.2023 20:47:36, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, Show, 25.04.2023 20:47:38, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Manager Manager, Show, 26.04.2023 10:14:52, []
+
+Manager Manager, ShowDrafts, 26.04.2023 10:15:00, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, Moderation, 26.04.2023 10:15:11, 
+
+Manager Manager, Show, 26.04.2023 10:15:17, []
+
+Manager Manager, ShowDrafts, 26.04.2023 10:15:19, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, ShowModerated, 26.04.2023 10:15:22, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Publishing, 26.04.2023 10:15:48, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Admin Admin, Show, 26.04.2023 10:15:53, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000]
+
+Admin Admin, ShowDrafts, 26.04.2023 10:15:55, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Publishing, 26.04.2023 10:15:57, 
+
+Admin Admin, Show, 26.04.2023 10:16:03, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Manager Manager, Moderation, 26.04.2023 10:16:36, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Manager Manager, Show, 26.04.2023 10:16:41, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Manager Manager, ShowDrafts, 26.04.2023 10:16:44, []
+
+Manager Manager, ShowModerated, 26.04.2023 10:16:46, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, Show, 03.05.2023 10:05:14, []
+
+Manager Manager, ShowDrafts, 03.05.2023 10:05:19, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Manager Manager, Moderation, 03.05.2023 10:05:29, 
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Show, 03.05.2023 10:06:17, []
+
+Admin Admin, ShowModerated, 03.05.2023 10:06:22, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Admin Admin, ShowDrafts, 03.05.2023 10:06:27, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, Publishing, 03.05.2023 10:06:35, 2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+
+Admin Admin, Show, 03.05.2023 10:06:43, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000]
+
+Admin Admin, ShowDrafts, 03.05.2023 10:06:45, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000]
+
+Admin Admin, ShowModerated, 03.05.2023 10:06:49, []
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Manager Manager, Edit, 03.05.2023 10:07:43, 0
+
+Manager Manager, Edit, 03.05.2023 10:07:51, 1 previous: 1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000 new: 1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+
+Manager Manager, Edit, 03.05.2023 10:08:34, 1 previous: 1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000 new: 1, bmw, x5, AO8878AK, 2012/12/13, 2013/02/13, 2200000
+
+Manager Manager, Show, 03.05.2023 10:08:53, []
+
+Manager Manager, ShowDrafts, 03.05.2023 10:08:58, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, x5, AO8878AK, 2012/12/13, 2013/02/13, 2200000]
+
+Manager Manager, AddInto, 03.05.2023 10:09:10, 3 toyota corolla BC4835RT 2018/12/12 2022/12/12 34000000 [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, x5, AO8878AK, 2012/12/13, 2013/02/13, 2200000
+3, toyota, corolla, BC4835RT, 2018/12/12, 2022/12/12, 34000000]
+
+Manager Manager, ShowDrafts, 03.05.2023 10:09:53, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+1, bmw, x5, AO8878AK, 2012/12/13, 2013/02/13, 2200000
+3, toyota, corolla, BC4835RT, 2018/12/12, 2022/12/12, 34000000]
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Publishing, 03.05.2023 10:10:21, 
+
+Admin Admin, Publishing, 03.05.2023 10:10:28, 
+
+Admin Admin, Publishing, 03.05.2023 10:10:36, 
+
+Admin Admin, Show, 03.05.2023 10:10:49, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO8878AK, 2012/12/13, 2013/02/13, 2200000]
+
+Admin Admin, ShowDrafts, 03.05.2023 10:10:51, [8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+3, toyota, corolla, BC4835RT, 2018/12/12, 2022/12/12, 34000000]
+
+Manager Manager, Publishing, 03.05.2023 10:15:29, Attempt to complete action without appropriate level of priority
+
+Manager Manager, AddInto, 03.05.2023 10:15:38, 4 toyota corolla AO9876AK 2020/12/12 2021/12/12 20000 [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+4, toyota, corolla, AO9876AK, 2020/12/12, 2021/12/12, 20000]
+
+Manager Manager, ShowDrafts, 03.05.2023 10:16:08, [2, toyota, camry, BV5414MR, 2002/12/13, 2004/02/13, 200000
+1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+8, audi, q8, BC1234RT, 2016/12/13, 2019/02/13, 9000000
+4, toyota, corolla, AO9876AK, 2020/12/12, 2021/12/12, 20000]
+
+Manager Manager, Moderation, 03.05.2023 10:16:21, 
+
+Manager Manager, Moderation, 03.05.2023 10:16:30, 
+
+Manager Manager, ShowModerated, 03.05.2023 10:16:35, [1, bmw, x5, AO5414LR, 2012/12/13, 2013/02/13, 2200000
+4, toyota, corolla, AO9876AK, 2020/12/12, 2021/12/12, 20000]
+
+Manager Manager, Logout, 01.01.0001 0:00:00, User Manager Manager is not active
+
+Admin Admin, Publishing, 03.05.2023 10:17:05, 
+
+Admin Admin, Show, 03.05.2023 10:17:12, [4, toyota, corolla, AO9876AK, 2020/12/12, 2021/12/12, 20000]
+
+Admin Admin, Logout, 01.01.0001 0:00:00, User Admin Admin is not active
+
+Tetiana Stoyko, Show, 03.05.2023 10:17:54, [4, toyota, corolla, AO9876AK, 2020/12/12, 2021/12/12, 20000]
+
